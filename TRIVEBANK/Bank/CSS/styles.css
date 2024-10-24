@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5e9;
+    color: #333;
+}
+
+header {
+    background-color: #006600; /* Dark Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 120px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e9f5e9; /* Light Green hover */
+}
+
+main {
+    padding: 40px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #006600; /* Dark Green */
+}
+
+button {
+    background-color: #006600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00cc44; /* Lighter green on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #004d00; /* Even darker green */
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#testimonials {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px; /* Add spacing above the section */
+}
+
+.testimonial {
+    margin: 15px 0;
+    padding: 10px;
+    border-left: 3px solid #4caf50; /* Green accent */
+}
+
+#testimonials h2 {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #333; /* Text color */
+}
+
+#blog {
+    margin-top: 30px;
+}
+
+#blog h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#blog article {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border to articles */
+    border-radius: 5px;
+}
+
+#blog h3 {
+    font-size: 20px;
+    color: #4caf50; /* Green accent for headings */
+}

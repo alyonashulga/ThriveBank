@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator - ThriveBank</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/calculator.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="ThriveBank Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="calculator.html">Loan Calculator</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Loan Repayment Calculator</h1>
+        <form id="loanForm">
+            <label for="amount">Loan Amount ($):</label>
+            <input type="number" id="amount" required>
+
+            <label for="rate">Annual Interest Rate (APR %):</label>
+            <input type="number" id="rate" required>
+
+            <label for="term">Loan Term (years):</label>
+            <input type="number" id="term" required>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="results">
+            <p>Monthly Payment: <span id="monthly"></span></p>
+            <p>Total Payment: <span id="total"></span></p>
+            <p>Total Interest: <span id="interest"></span></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ThriveBank. All rights reserved.</p>
+    </footer>
+        <p>&copy; 2024 ThriveBank. All rights reserved.</p>
+        <p>
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Service</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
